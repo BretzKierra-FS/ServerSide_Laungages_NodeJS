@@ -1,0 +1,26 @@
+{
+  "name": "serverside-laungages",
+  "version": "1.0.0",
+  "description": "NodeJS Backend Project",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "start": "nodemon server",
+    "stop": "nodemon serverS"
+  },
+  "keywords": [
+    "NodeJS",
+    "Backend",
+    "Service"
+  ],
+  "author": "Kierra Bretz",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "nodemon": "^2.0.22"
+  }
+}
