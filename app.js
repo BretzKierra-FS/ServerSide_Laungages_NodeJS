@@ -13,7 +13,7 @@ app.get('/', (req, res) => {
 });
 
 //use middleware to define my router
-app.use('/exercise', router);
+app.use('/get', router);
 // use POST
 app.post('/post', router);
 //use PUT
