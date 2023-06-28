@@ -14,6 +14,12 @@ app.get('/', (req, res) => {
 
 //use middleware to define my router
 app.use('/exercise', router);
+// use POST
+app.post('/post', router);
+//use PUT
+app.put('/put/:id', router);
+//use DELETE
+app.delete('/delete/:id', router);
 
 // use middleware to handle errors and bad url paths
 app.use((req, res, next) => {
